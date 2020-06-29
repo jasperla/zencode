@@ -34,7 +34,7 @@ setuptools.setup(
     license=license,
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/jasperla/zencoder',
+    url=url,
     packages=setuptools.find_packages(),
     classifiers=[
         'Development Status :: 3 - Alpha',
