@@ -11,6 +11,5 @@ In no particular order:
 - alphanumeric encoding
 - linting/style
 - print resulting bytes (ready for usage) along with size, etc
-- proper Python distribution
 - tests
 - x86\_64 support

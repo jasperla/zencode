@@ -13,6 +13,11 @@ from binascii import hexlify, unhexlify
 from math import remainder
 from z3 import *
 
+__version__ = '0.0.1'
+__author__ = 'Jasper Lievisse Adriaanse <r+pypi@jasper.la>'
+__license__ = 'ISC'
+__url__ = 'https://github.com/jasperla/zencode'
+
 class Encoder():
     def __init__(self, badbytes, shellcode, register):
         self.badbytes = badbytes
